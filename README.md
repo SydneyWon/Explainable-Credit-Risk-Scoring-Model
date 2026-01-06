@@ -77,20 +77,6 @@ The dataset was imbalanced (70% Good vs 30% Bad). To address the low recall for 
 
 ---
 
-## 🚀 How to Run
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/YourUsername/explainable-credit-scoring.git](https://github.com/YourUsername/explainable-credit-scoring.git)
-    ```
-2.  **Install dependencies**
-    ```bash
-    pip install pandas numpy scikit-learn xgboost shap matplotlib seaborn
-    ```
-3.  **Run the Notebook**
-    Open `Credit_Risk_Analysis.ipynb` in Jupyter Notebook or Google Colab.
-
----
-
 ## 👤 Author
 * **Name:** Sydney Won
 * **Contact:** sydney.b.won@gmail.com
