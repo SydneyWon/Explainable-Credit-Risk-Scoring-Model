@@ -13,7 +13,7 @@ This project aims to build a robust and transparent machine learning model to pr
 
 Unlike traditional "black-box" models, this project emphasizes **Explainable AI (XAI)** to interpret model decisions, ensuring compliance with financial regulations and providing actionable insights for loan officers.
 
-### **Key Objectives**
+### **Key Objectives**  
 1.  **Risk Minimization:** Maximize the detection of high-risk applicants (Recall) to prevent financial losses.
 2.  **Explainability:** Use **SHAP (SHapley Additive exPlanations)** to provide global and local interpretations of predictions.
 3.  **Fairness Audit:** Analyze potential biases in demographic features (e.g., Age, Gender) to ensure ethical lending.
