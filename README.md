@@ -77,6 +77,22 @@ The dataset was imbalanced (70% Good vs 30% Bad). To address the low recall for 
 
 ---
 
+## **⚖️ Regulatory Compliance & Ethics**
+
+In the highly regulated financial sector, "Black Box" models pose significant legal risks. This project utilizes SHAP to strictly adhere to global financial standards such as **GDPR** and **ECOA**.
+
+**1. Right to Explanation (GDPR Art. 22)**
+* **Requirement:** Applicants have the legal right to know the specific reasons behind an automated loan rejection or approval.
+* **Implementation:** The **SHAP Waterfall Plot** serves as an automated audit trail.
+    * *Case Evidence:* For the applicant above (Index 0), the model explicitly identifies that their **Savings Account (>= 1000 DM)** was the decisive positive factor (Score Impact: -0.58), outweighing other risks.
+    * *Impact:* This granularity allows financial institutions to generate transparent "Reason Codes" for customers, ensuring full compliance with transparency laws.
+
+**2. Fair Lending Audit (ECOA)**
+* **Requirement:** The Equal Credit Opportunity Act prohibits discrimination based on protected attributes (e.g., Age, Gender).
+* **Implementation:** By analyzing the **SHAP Summary Plot**, it was verified that the model's decisions are primarily driven by financial indicators (e.g., *Checking Status, Duration, Credit Amount*) rather than sensitive demographic features. This provides empirical evidence to internal auditors that the model minimizes bias and adheres to fair lending practices.
+
+---
+
 ## 👤 Author
 * **Name:** Sydney Won
 * **Contact:** sydney.b.won@gmail.com
