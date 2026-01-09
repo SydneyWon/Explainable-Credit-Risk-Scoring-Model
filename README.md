@@ -6,6 +6,12 @@
 
 > **"Explainable Credit Risk Scoring Model predicting loan default using XGBoost and SHAP. Features class imbalance optimization and fairness auditing."**
 
+- **Problem:** Traditional "black-box" AI models struggle with regulatory transparency requirements and often fail to catch high-risk defaulters, leading to significant financial losses.
+
+- **Solution:** Developed an XGBoost-based scoring model optimized for Recall to minimize false negatives, utilizing SHAP (SHapley Additive exPlanations) to provide transparent reasoning for loan approvals and rejections.
+
+- **Impact:** Reduced potential credit losses by maximizing default detection and ensured full compliance with XAI (Explainable AI) standards for fair lending audits.
+
 ---
 
 ## 📌 Project Overview
