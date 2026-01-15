@@ -24,7 +24,7 @@ except FileNotFoundError:
     st.stop()
 
 # Initialize SHAP Explainer
-explainer = shap.TreeExplainer(model)
+explainer = shap.TreeExplainer(model.get_booster())
 
 # ---------------------------------------------------------
 # 2. Sidebar: User Inputs
